@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:CG-light;
+      }
+}
+@font-face{
+    font-family:tan-pearl;
+    src: url(assets/fonts/tan-pearl.ttf) format('truetype');
+}
+@font-face {
+    font-family:CG-light;
+    src: url(assets/fonts/CormorantGaramond-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family:CG-bold;
+    src: url(assets/fonts/CormorantGaramond-Bold.ttf) format('truetype');
+}

@@ -1,0 +1,108 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:CG-light;
+  }
+   */
+  /* body {
+
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+  } */
+/*   
+  .contact-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+  } */
+/*   
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-family:tan-pearl;
+    text-transform: uppercase;
+  }
+   */
+  /* form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+   */
+  /* .form-group {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding: 8px 0;
+    
+  }
+   */
+  /* .form-group label {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .form-group option{
+    font-family:CG-light;
+  }
+  ::placeholder{
+    font-family:CG-light;
+  }
+  
+  .form-group .icon {
+    color:#f3f3f3;
+    background-color: rgb(0, 0, 0);
+    height:39px;
+    width:45px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="date"],
+  select,
+  textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+    background: transparent;
+    font-family:CG-bold;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #272526;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family:CG-light;
+    display: block;
+    margin: 10px auto 50px;
+    width: 100%;
+    max-width: 500px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    box-shadow: 1px 5px 6px -4px #000;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+   */
