@@ -12,7 +12,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 export class ContactformComponent implements OnInit {
 
   contactForm!: FormGroup;
-  submitted = false;
+  // submitted = false;
 
   constructor(private fb: FormBuilder) {
   }
@@ -28,10 +28,14 @@ export class ContactformComponent implements OnInit {
 
   onSubmit() {
     if (this.contactForm.valid) {
-      this.submitted = true;
       console.log('Form submitted:', this.contactForm.value);
     } else {
       console.log('Form is invalid');
+      // this.submitted = true;
+      this.contactForm.controls['queries'].markAsTouched();
+      this.contactForm.controls['name'].markAsTouched();
+      this.contactForm.controls['phone'].markAsTouched();
+      this.contactForm.controls['email'].markAsTouched();
     }
   }
 
